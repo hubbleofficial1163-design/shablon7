@@ -1161,3 +1161,127 @@ input:focus, button:focus, a:focus {
         font-size: 2.2rem;
     }
 }
+
+/* =========================================
+   УВЕЛИЧЕНИЕ ВСЕХ ШРИФТОВ НА 15%
+   ========================================= */
+html {
+    font-size: 18.4px; /* 16px * 1.15 = 18.4px */
+}
+
+/* Hero-секция */
+.hero-section .title-wedding {
+    font-size: 3.45rem; /* 3rem * 1.15 */
+}
+.hero-section .date {
+    font-size: 1.15rem; /* 1rem * 1.15 */
+}
+.hero-section .name {
+    font-size: 4.025rem; /* 3.5rem * 1.15 */
+}
+
+/* Локация */
+.loc-new-title {
+    font-size: 2.53rem; /* 2.2rem * 1.15 */
+}
+.loc-new-address {
+    font-size: 1.035rem; /* 0.9rem * 1.15 */
+}
+.loc-new-greeting {
+    font-size: 0.92rem; /* 0.8rem * 1.15 */
+}
+.loc-new-desc {
+    font-size: 0.8625rem; /* 0.75rem * 1.15 */
+}
+.loc-new-btn {
+    font-size: 0.7475rem; /* 0.65rem * 1.15 */
+}
+.loc-bottom-title {
+    font-size: 2.07rem; /* 1.8rem * 1.15 */
+}
+.loc-bottom-time {
+    font-size: 2.07rem; /* 1.8rem * 1.15 */
+}
+
+/* Тайминг */
+.timeline-title {
+    font-size: 2.07rem; /* 1.8rem * 1.15 */
+}
+.timeline-subtitle {
+    font-size: 3.22rem; /* 2.8rem * 1.15 */
+}
+.timeline-time {
+    font-size: 1.035rem; /* 0.9rem * 1.15 */
+}
+.timeline-event {
+    font-size: 1.265rem; /* 1.1rem * 1.15 */
+}
+.timeline-desc {
+    font-size: 0.8625rem; /* 0.75rem * 1.15 */
+}
+
+/* Дресс-код */
+.dresscode-title {
+    font-size: 2.07rem; /* 1.8rem * 1.15 */
+}
+.dresscode-subtitle {
+    font-size: 3.22rem; /* 2.8rem * 1.15 */
+}
+.dresscode-text {
+    font-size: 0.9775rem; /* 0.85rem * 1.15 */
+}
+.dresscode-note {
+    font-size: 0.92rem; /* 0.8rem * 1.15 */
+}
+
+/* Детали */
+.details-title {
+    font-size: 2.07rem; /* 1.8rem * 1.15 */
+}
+.details-subtitle {
+    font-size: 3.22rem; /* 2.8rem * 1.15 */
+}
+.details-item-title {
+    font-size: 0.805rem; /* 0.7rem * 1.15 */
+}
+.details-item-text {
+    font-size: 0.9775rem; /* 0.85rem * 1.15 */
+}
+.details-signature {
+    font-size: 4.025rem; /* 3.5rem * 1.15 */
+}
+
+/* Анкета и Футер */
+.final-title {
+    font-size: 2.07rem; /* 1.8rem * 1.15 */
+}
+.final-date-note {
+    font-size: 1.035rem; /* 0.9rem * 1.15 */
+}
+.final-label {
+    font-size: 0.805rem; /* 0.7rem * 1.15 */
+}
+.final-input {
+    font-size: 1.15rem; /* 1rem * 1.15 */
+}
+.final-question {
+    font-size: 0.805rem; /* 0.7rem * 1.15 */
+}
+.final-radio-label {
+    font-size: 1.035rem; /* 0.9rem * 1.15 */
+}
+.final-btn {
+    font-size: 0.7475rem; /* 0.65rem * 1.15 */
+}
+.final-timer-title {
+    font-size: 1.035rem; /* 0.9rem * 1.15 */
+}
+.final-timer-number {
+    font-size: 2.07rem; /* 1.8rem * 1.15 */
+}
+.final-timer-label {
+    font-size: 0.575rem; /* 0.5rem * 1.15 */
+}
+.final-copy {
+    font-size: 0.69rem; /* 0.6rem * 1.15 */
+}
