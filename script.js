@@ -53,3 +53,34 @@ document.addEventListener("DOMContentLoaded", () => {
     updateTimer();
     setInterval(updateTimer, 1000);
 });
+
+
+// =========================================
+// ZERO БЛОК + МУЗЫКА
+// =========================================
+let musicStarted = false;
+
+function startMusic() {
+    if (musicStarted) return;
+    
+    const zeroBlock = document.getElementById('zero-block');
+    const audio = new Audio('1.mp3');
+    
+    // Запускаем музыку
+    audio.play().catch(function(error) {
+        console.log('Автовоспроизведение заблокировано, нужен клик пользователя');
+    });
+    
+    // Прячем zero-блок
+    zeroBlock.classList.add('hidden');
+    
+    // Удаляем блок из DOM после анимации
+    setTimeout(function() {
+        zeroBlock.style.display = 'none';
+    }, 800);
+    
+    musicStarted = true;
+    
+    // Сохраняем аудио в глобальную переменную, чтобы оно не остановилось
+    window.weddingAudio = audio;
+}
