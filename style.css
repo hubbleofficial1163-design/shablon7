@@ -1285,3 +1285,65 @@ html {
 .final-copy {
     font-size: 0.69rem; /* 0.6rem * 1.15 */
 }
+
+/* =========================================
+   ZERO БЛОК
+   ========================================= */
+#zero-block {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+    background-color: #f5f1f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: opacity 0.8s ease;
+}
+
+#zero-block img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+
+.zero-overlay {
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    pointer-events: none;
+}
+
+.zero-tap-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    color: #3A322B;
+    opacity: 0.7;
+    letter-spacing: 2px;
+    animation: pulse-text 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse-text {
+    0%, 100% {
+        opacity: 0.7;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.3;
+        transform: scale(0.95);
+    }
+}
+
+/* Скрытие блока после клика */
+#zero-block.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
